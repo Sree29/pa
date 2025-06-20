@@ -228,59 +228,52 @@
                         </div>
 
                         <!-- Bookings Table -->
-                        <div class="col-md-12 mt-4">
-                            <div class="card shadow-sm border-0">
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table table-striped custom-table">
-                                            <thead>
-                                                <tr>
-                                                    <th>Gadget Name</th>
-                                                    <th>Model of Gadget</th>
-                                                    <th>Problem with Gadget</th>
-                                                    <th>Name</th>
-                                                    <th>Email</th>
-                                                    <th>Phone Number</th>
-                                                    <th>Action</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Phone</td>
-                                                    <td>Apple iPhone 15 Pro Max</td>
-                                                    <td>Display change</td>
-                                                    <td>Yamuna</td>
-                                                    <td>yamuna@gmail.com</td>
-                                                    <td>1231231231</td>
-                                                    <td class="text-end">
-                                                        <div class="dropdown">
-                                                            <a href="#"
-                                                                class="btn btn-sm btn-outline-secondary dropdown-toggle"
-                                                                data-bs-toggle="dropdown">
-                                                                <i class="fa fa-ellipsis-v"></i>
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                                <li>
-                                                                    <a class="dropdown-item" href="#"
-                                                                        data-bs-toggle="modal"
-                                                                        data-bs-target="#deleteBookingModal">
-                                                                        <i class="fa fa-trash-o me-2"></i> Delete
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <!-- Add more rows here -->
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+<div class="col-12 px-0 px-sm-1 px-md-2 mt-4"> <!-- No padding on xs, minimal on sm, normal on md+ -->
+  <div class="card shadow-sm border-0">
+    <div class="card-body px-0 px-sm-1 px-md-3"> <!-- Match the outer padding logic -->
+      <div class="table-responsive">
+        <table class="table table-striped custom-table mb-0">
+          <thead>
+            <tr>
+              <th>Gadget Name</th>
+              <th>Model of Gadget</th>
+              <th>Problem with Gadget</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone Number</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Phone</td>
+              <td>Apple iPhone 15 Pro Max</td>
+              <td>Display change</td>
+              <td>Yamuna</td>
+              <td>yamuna@gmail.com</td>
+              <td>1231231231</td>
+              <td class="text-end">
+                <div class="dropdown">
+                  <a href="#" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                    <i class="fa fa-ellipsis-v"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteBookingModal">
+                        <i class="fa fa-trash-o me-2"></i> Delete
+                      </a>
+                    </li>
+                  </ul>
                 </div>
+              </td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 
 
                 <!-- Repeat static cards as needed... -->
